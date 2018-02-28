@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>EMbArK</title>
+        <script type="text/javascript" src="./node_modules/jquery/dist/jquery.js"></script>
+        <script type="text/javascript" src="./node_modules/d3/build/d3.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.5/lodash.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    </head>
+    <style>
+     .container {
+         padding-top:20px;
+     }
+
+     .h2 {
+         padding-bottom:10px;
+         padding-top:10px;
+         margin-left:auto;
+         text-align:center;
+     }
+
+     .btn {
+         padding:2px;
+     }
+    </style>
+    <body>
+        <div class="row justify-content-center">
+            <div class="col-lg-5 align-self-center">
+                <h2>EMbArK</h2>
+                <h4>Evolutionary MAchi Koro</h4>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <a href="./index.html"><button type="button" class="btn btn-secondary" href="./index.html">Run Simulation</button></a>
+            <a href="./test.html"><button type="button" class="btn btn-secondary" href="./test.html">About Simulation</button></a>
+        </div>
+        <div class ="row justify-content-center">
+            <div class="col-lg-6 align-self-center container">
+                <svg height="600" width="800"></svg>
+                <script type="text/javascript" src="./vis.js"></script>
+            </div>
+        </div>
+    </body>
+</html>
